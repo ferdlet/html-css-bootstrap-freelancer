@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+.ms_bgc-blue {
+    background-color: rgb(17, 56, 116);
+}
+
+
+/* main */
+.ms_bgc-green {
+    background-color: green;
+}
+
+
+/* debug */
+.debug .jumbotron {
+    height: 400px;
+}
+
+.debug .portfolio {
+    height: 800px;
+}
+
+.debug .about {
+    height: 400px;
+}
+
+.contact {
+    height: 300px;
+}
+
+.debug .footer-top {
+    background-color: lightskyblue;
+    height: 200px;
+}
+
+.debug .footer-bottom {
+    background-color: darkslateblue;
+    height: 80px;
+}
