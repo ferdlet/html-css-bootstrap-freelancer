@@ -15,14 +15,23 @@
     background-color: green;
 }
 
-
-/* debug */
-.debug .jumbotron {
-    height: 400px;
+/* jumbotron */
+.avatar-img {
+    width: 200px;
 }
 
-.debug .portfolio {
-    height: 800px;
+.separatore {
+    height: 2px;
+    width: 60px;
+}
+
+/* portfolio */
+
+
+
+/* debug */
+.portfolio {
+    height: 400px;
 }
 
 .debug .about {
