@@ -1,6 +1,14 @@
 /* header */
 .ms_bgc-blue {
-    background-color: rgb(17, 56, 116);
+    background-color: rgb(11, 39, 82);
+}
+
+.ms_bgc-lightblue {
+    background-color: rgb(17, 60, 124);
+} 
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
 }
 
 /* main */
@@ -23,6 +31,15 @@
     width: 100%;
 }
 
+.ms_footer-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-bottom {
+    height: 80px;
+}
+
 /* debug */
 /* .portfolio {
     height: 400px;
@@ -36,12 +53,11 @@
     height: 300px;
 } */
 
-.debug .footer-top {
+/* .debug .footer-top {
     background-color: lightskyblue;
-    /* height: 200px; */
+    height: 200px; 
 }
 
 .debug .footer-bottom {
     background-color: darkslateblue;
-    height: 80px;
-}
+} */
