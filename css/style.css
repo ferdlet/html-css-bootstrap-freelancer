@@ -1,14 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* header */
 .ms_bgc-blue {
     background-color: rgb(17, 56, 116);
 }
-
 
 /* main */
 .ms_bgc-green {
@@ -26,11 +19,12 @@
 }
 
 /* portfolio */
-
-
+.box img {
+    width: 100%;
+}
 
 /* debug */
-.portfolio {
+/* .portfolio {
     height: 400px;
 }
 
@@ -40,11 +34,11 @@
 
 .contact {
     height: 300px;
-}
+} */
 
 .debug .footer-top {
     background-color: lightskyblue;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .debug .footer-bottom {

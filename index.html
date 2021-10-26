@@ -5,67 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap freelancer</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="debug">
 
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark p-3 ms_bgc-blue">
-            <a class="navbar-brand text-uppercase fw-bold" href="#">start bootstrap</a>
-            <button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-uppercase d-md-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
-                    </li>
-                </ul>
+    <!-- Inizio header -->
+    <header class="ms_bgc-blue">       
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold" href="#">start bootstrap</a>
+                <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-uppercase fw-bold justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+    <!-- Fine header -->
 
+    <!-- Inizio main -->
     <main>
         <!-- Inzio Jumbotron -->
-        <div class="container-fluid ms_bgc-green p-4 jumbotron">
-            
-        
+        <div class="container-fluid ms_bgc-green py-4 text-center jumbotron">
+            <img class="avatar-img" src="img/avatar.svg" alt="avatar">
+            <h1 class="text-uppercase text-white">start bootstrap</h1>
+            <div class="container my-1 d-flex justify-content-center align-items-center">
+                <div class="bg-white separatore"></div>
+                <i class="fas fa-star text-white mx-2"></i>
+                <div class="bg-white separatore"></div>
+            </div>
+            <div class="text-uppercase text-white">
+                graphic artist - web designer - illustrator
+            </div>
+
         </div>
         <!-- Fine Jumbotron -->
 
+        <!-- portfolio -->
+        <div class="portfolio my-4 container-fluid">
+            <h2 class="text-uppercase text-center">portfolio</h2>
+            <div class="container my-3 d-flex justify-content-center align-items-center">
+                <div class="bg-dark separatore"></div>
+                <i class="fas fa-star text-dark mx-2"></i>
+                <div class="bg-dark separatore"></div>
+            </div>
 
-        <div class="container-fluid portfolio">
-
-        </div>
-
-        <div class="about container-fluid ms_bgc-green">
-
-        </div>
-
-        <div class="contact container-fluid">
-
-        </div>
-
-    </main>
-
-    <footer>
-        <div class="container-fluid footer-top">
+            <div class="container">
+                
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+                    <div class="col">
+                        <div class="box">
+                            <img class="rounded" src="img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img class="rounded" src="img/cake.png" alt="cake">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img class="rounded" src="img/circus.png" alt="circus">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img class="rounded" src="img/game.png" alt="game">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img class="rounded" src="img/safe.png" alt="safe">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <img class="rounded" src="img/submarine.png" alt="submarin">
+                        </div>
+                    </div>
+                </div>
+            </div>
             
         </div>
+        <!-- Fine portfolio -->
 
-        <div class="footer-bottom container-fluid"></div>
+        <!-- inizio about -->
+        <div class="about container-fluid ms_bgc-green">
+            <div class="container text-white">
+                <h2 class="text-uppercase text-center">about</h2>
+                <div class="container my-3 d-flex justify-content-center align-items-center">
+                    <div class="bg-white separatore"></div>
+                    <i class="fas fa-star text-white mx-2"></i>
+                    <div class="bg-white separatore"></div>
+                <div class="row">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Fine about -->
+
+        <!-- Inizio contatti -->
+        <div class="contact container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+        <!-- Fine contatti -->
+    </main>
+    <!-- Fine Main -->
+
+    <!-- Inizio footer -->
+    <footer>
+
+        <!-- Inizio footer-top -->
+        <div class="container-fluid footer-top">
+            
+
+        </div>
+        <!-- Fine footer-top -->
+
+        <!-- Inizio footer-bottom -->
+        <div class="footer-bottom container-fluid">
+
+        </div>
+        <!-- Fine footer-bottom -->
     </footer>
-
-    
+    <!-- Fine Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
