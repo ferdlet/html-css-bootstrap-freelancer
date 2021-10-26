@@ -1,4 +1,7 @@
-/* header */
+body {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
 .ms_bgc-blue {
     background-color: rgb(11, 39, 82);
 }
@@ -7,18 +10,8 @@
     background-color: rgb(17, 60, 124);
 } 
 
-body {
-    font-family: 'Lato', Arial, sans-serif;
-}
-
-/* main */
 .ms_bgc-green {
     background-color: green;
-}
-
-/* jumbotron */
-.avatar-img {
-    width: 200px;
 }
 
 .separatore {
@@ -26,14 +19,24 @@ body {
     width: 60px;
 }
 
+/* jumbotron */
+.avatar-img {
+    width: 200px;
+}
+
 /* portfolio */
 .box img {
     width: 100%;
 }
 
+/* Footer */
 .ms_footer-icon{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.ms_green {
+    color: green;
 }
 
 .footer-bottom {
@@ -49,11 +52,11 @@ body {
     height: 400px;
 }
 
-.contact {
+.debug .contact {
     height: 300px;
-} */
+} 
 
-/* .debug .footer-top {
+.debug .footer-top {
     background-color: lightskyblue;
     height: 200px; 
 }
